@@ -40,6 +40,9 @@
 .section-description{
     font-size: 18px;
     color: #757575;
+    .text-center{
+        text-align: center;
+    }
 }
 /* header */
 
@@ -79,7 +82,7 @@ nav li a {
 }
 
 
-/* bannewr styles */
+/* banner styles */
 
 .banner{
     display: flex;
@@ -128,6 +131,9 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+    margin: 50px;
+    width: 782;
+    height: 60;
 }
 
 .item-description{
